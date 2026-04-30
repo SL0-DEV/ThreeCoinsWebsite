@@ -16,7 +16,7 @@ export default function Footer() {
             />
             <span className="text-zinc-400 font-bold uppercase text-xl font-space tracking-widest">THREE COINS STUDIO</span>
           </div>
-          <p className="font-space text-xs tracking-widest text-zinc-500">© 2024 THREE COINS STUDIO. NO QUARTERS REQUIRED.</p>
+          <p className="font-space text-xs tracking-widest text-zinc-500">© 2026 THREE COINS STUDIO. NO QUARTERS REQUIRED.</p>
         </div>
 
         <nav className="flex flex-wrap justify-center gap-6 md:gap-8">
