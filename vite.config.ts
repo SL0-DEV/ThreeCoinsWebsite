@@ -7,9 +7,7 @@ export default defineConfig(({ mode }) => {
   const env = loadEnv(mode, '.', '');
 
   return {
-    // ⭐ THIS is why GitHub Pages is 404
-    base: mode === 'production' ? '/ThreeCoinsWebsite/' : '/',
-
+    base: '/ThreeCoinsWebsite/',
     plugins: [react(), tailwindcss()],
     define: {
       'process.env.GEMINI_API_KEY': JSON.stringify(env.GEMINI_API_KEY),
