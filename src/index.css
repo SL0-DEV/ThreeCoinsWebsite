@@ -1,0 +1,62 @@
+@import "tailwindcss";
+
+@theme {
+  --color-background: #151310;
+  --color-on-background: #e7e2dd;
+  
+  --color-surface-container-lowest: #0f0e0b;
+  --color-surface-container-low: #1d1b19;
+  --color-surface-container: #211f1c;
+  --color-surface-container-high: #2c2a27;
+  
+  --color-on-surface-variant: #ccc7aa;
+  
+  --color-primary-container: #f4e700;
+  --color-on-primary-container: #6d6600;
+  
+  --color-secondary-container: #5f5900;
+  --color-on-secondary-container: #d9d071;
+  --color-secondary-fixed-dim: #d2c96b;
+  
+  --color-tertiary: #ffffff;
+
+  --font-space: "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-manrope: "Manrope", ui-sans-serif, system-ui, sans-serif;
+
+  --font-display-xl: "Space Grotesk", sans-serif;
+  --font-headline-lg: "Space Grotesk", sans-serif;
+  --font-headline-md: "Space Grotesk", sans-serif;
+  --font-label-bold: "Space Grotesk", sans-serif;
+  --font-body-lg: "Manrope", sans-serif;
+  --font-body-md: "Manrope", sans-serif;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  background-color: var(--color-background);
+  color: var(--color-on-background);
+  font-family: var(--font-manrope);
+}
+
+.pixel-shadow {
+  box-shadow: 4px 4px 0px 0px rgba(0, 0, 0, 1);
+}
+.pixel-shadow-dark {
+  box-shadow: 4px 4px 0px 0px #18181b;
+}
+.pixel-shadow-yellow {
+  box-shadow: 4px 4px 0px 0px #725f00;
+}
+.pixel-border {
+  border: 4px solid #131318;
+}
+.pressed {
+  transition: all 0.1s ease-in-out;
+}
+.pressed:active {
+  transform: translate(4px, 4px);
+  box-shadow: none !important;
+}
